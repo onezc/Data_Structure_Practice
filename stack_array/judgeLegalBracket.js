@@ -2,7 +2,7 @@ const Stack = require('./Stack')
 // 判断合法括号
 function judgeLegalBracket(str) {
   // 判断是否为字符串
-  if (typeof(str) != 'string') throw new Error("")
+  if (typeof(str) != 'string') throw new Error("not String")
   const _stack = new Stack()
   // 循环遍历字符串
   for (let i=0; i<str.length; i++) {

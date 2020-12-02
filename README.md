@@ -10,10 +10,14 @@
 
 ## 目录
 ```bash
-- stack_array  数组实现栈
-  - __test__  测试文件
-    - index.spec.js  测试代码及用例
-  - Stack.js  数组实现栈代码
-  - judgeLegalBracket.js  栈的应用1 判断合法括号
-  - MinStack.js  栈的应用2 实现一个带min方法的栈（时间复杂度为O(1)）
+-- stack_array  数组实现栈
+  -- __test__  测试文件
+    -- index.spec.js  测试代码及用例
+  -- Stack.js  数组实现栈代码
+  -- judgeLegalBracket.js  栈练习1
+  -- MinStack.js  栈练习2
+-- queue  数组实现队列
+  -- __test__  测试文件
+    -- index.spec.js  测试代码及用例
+  -- delRing.js  队列练习1
 ```

@@ -14,7 +14,7 @@ test('栈 栈的实现',() => {
 
 const judgeLegalBracket = require('../judgeLegalBracket')
 
-test('栈的应用1 判断合法括号',() => {
+test('栈练习1 判断合法括号',() => {
   // 捕获报错
   expect(() => shallow(judgeLegalBracket())).toThrowError()
   expect(judgeLegalBracket('')).toBe(true)
@@ -25,7 +25,7 @@ test('栈的应用1 判断合法括号',() => {
 })
 
 const MinStack = require('../MinStack')
-test('栈的应用2 实现一个带min方法的栈（时间复杂度为O(1)）',() => {
+test('栈练习2 实现一个带min方法的栈（时间复杂度为O(1)）',() => {
   const _minStack = new MinStack()
   
   _minStack.push(4)
