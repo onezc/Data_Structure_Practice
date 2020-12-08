@@ -19,5 +19,10 @@
 -- queue  数组实现队列
   -- __test__  测试文件
     -- index.spec.js  测试代码及用例
+  -- Queue.js  数组实现队列
   -- delRing.js  队列练习1
+-- linkList  单项链表实现
+  -- __test__  测试文件
+    -- index.spec.js  测试代码及用例
+  -- LinkList.js  实现单项链表
 ```
